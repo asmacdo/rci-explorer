@@ -1,23 +1,25 @@
-# science-loop
+# RCI-explorer
 
 Mapping how science actually functions as a recursive community improvement loop, so
 we can see where AI (and STAMPED) can make it more efficient, more rigorous, faster.
+
+What we are for, scope, and how agents should think: @SOUL.md
 
 ## Stance
 
 - **Descriptive first.** Map what is actually happening before proposing what should.
 - **Rigor is a community property.** Unauditable work may be careful; it is not rigorous
-  from the community's perspective. Auditability is constitutive, not instrumental.
-- **"Recursive Community Improvement"** — the mental model of what *we can* build: a loop of
-  humans, institutions and tools improving their own methods. RSI is out of scope, not a
-  rival to argue against. Prior art (Engelbart, Drexler, Nielsen & Qiu, Bryk) is to build on,
-  not to out-claim.
+  from the community's perspective. Auditability is constitutive, not instrumental (a working
+  assumption: it defines what "rigorous" means here; it is not a finding).
+- **Prior art is built on, not out-claimed.** Engelbart, Drexler, Nielsen & Qiu and Bryk each
+  cover part of RCI; cite them.
 - **The body of science is semi-trusted.** Building on it is either risky (no
   verification) or expensive (verification). Once mapped, this is a resource allocation
   problem — and allocation is distributed, not decided centrally.
-- **Don't pick an objective.** Name the axes (propagated error, throughput,
-  time-to-correction, human hours, cost) and show the trade-offs of each tuning. The
-  weighting is a values choice that belongs to the community.
+- **Don't pick an objective below the top one.** SOUL.md names what sits above (the community
+  optimizing its own ability to be efficient, answer questions, and earn trust). Below that,
+  name the axes (propagated error, throughput, time-to-correction, human hours, cost) and show
+  the trade-offs of each tuning. The weighting is a values choice that belongs to the community.
 - **Top-level map stays vague enough to be true, with ambiguity explicit.** Lower layers
   must get concrete enough to be wrong. Test: could two people read it and allocate
   differently? If no one can disagree, it isn't a map yet.

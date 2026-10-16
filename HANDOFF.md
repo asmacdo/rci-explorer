@@ -1,13 +1,12 @@
 # Handoff
 
-Self-contained: read this, then `CLAUDE.md`, then `sources/ANNOTATED_BIB.md`, then `docs/`.
+Self-contained: read this, then `SOUL.md`, then `CLAUDE.md`, then `sources/ANNOTATED_BIB.md`, then `docs/`.
 
 ## What this is
 
-A map of science as a recursive community improvement (RCI) loop, to see where AI and STAMPED can make it more rigorous and faster.
-Practical goal: find contributions to the ReproNim Phase 3 TRDs (benchmark suite, ReproScore, skill validation and trust, claim re-executability).
-RCI is the mental model of what we can build; RSI is out of scope, not a rival.
-Stance and working rules: `CLAUDE.md`.
+Exploration of science, neuroimaging first, as a recursive community improvement (RCI) loop: some loop already exists, and we look for how AI and STAMPED could iterate on it.
+What we are for, scope and how agents should think: `SOUL.md`. Working rules: `CLAUDE.md`.
+Context: the project lead works on ReproNim TRD3; Phase 3 is the P41's last phase, but the community it serves outlives the grant. If something sharable emerges (e.g. for the TRDs), new goals follow; it is not the goal yet.
 
 ## State
 
@@ -31,21 +30,25 @@ The cross-cutting section of `sources/ANNOTATED_BIB.md` is the thing to read; th
 - RSI works where a cheap trusted verifier exists, and the verifier then gets attacked (Darwin Gödel Machine, lee3j, ARC-AGI-3).
 - Hardt's benchmark book is the closest working model of community verification: rankings survive Goodhart, scalars do not.
 
-## Decisions waiting on the project lead
+## Decided by the project lead
 
-These are positioning calls about the thesis, deliberately not made by an agent (also in `TODO.md`):
+- RCI is a frame for iterating on a loop that already exists, not a claim to defend against RSI; RSI is out of scope; prior art is built on, not out-claimed. Cross-cutting 10-12 remain useful as context.
+- "Auditability is constitutive" is a working assumption (a definition of "rigorous"), not a finding.
+- Open problems are named in `SOUL.md` and deliberately left open: measurement, Goodhart, scope, humans' role.
 
-1. Humans as constituents of the loop or as overseers of it (13).
-2. Mycelium's tier (agent said STRETCH; placed in the high tier pending your call).
+## Waiting on the project lead
 
-Decided: RCI is a design frame, not a claim to defend against RSI; prior art is built on, not out-claimed. This retires the positioning and "already works" questions (cross-cutting 10-12 remain useful as context).
+- Mycelium's tier (agent said STRETCH; placed in the high tier pending your call).
 
 ## Next steps
 
-1. Short sourced memo per ReproNim TRD, TRD3 first (benchmark suite, skill trust); read the specific sources cited (Hardt Ch 5, 7, 12, 14 especially) before offering anything.
+Top down, per `SOUL.md`: how does science progress, and how could AI improve that?
+
+1. Trace real cases through the loop to ground the model (candidates in cross-cutting 9: OHBM OSSIG challenge, Brain Researcher's sign-blind error, Darwin Gödel Machine App. H, Meisler).
 2. Review the bibliography; read the high-tier sources, starting with Hardt and Engelbart.
-3. Trace real cases through the loop (candidates in cross-cutting 9: OHBM OSSIG challenge, Brain Researcher's sign-blind error, Darwin Gödel Machine App. H, Meisler).
+3. Explore the measurement subproblem: how could the community tell whether it is improving, given an unknown baseline?
 4. Evidence for AI already in the loop (`docs/ai-in-the-loop.md`).
+5. If something sharable emerges, map it onto the TRD questions (benchmark suite, ReproScore, skill validation and trust, claim re-executability), TRD3 first.
 
 ## Repo mechanics
 

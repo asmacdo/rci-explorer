@@ -22,7 +22,7 @@ Read? stays ☐ until a human has read it.
 [notes](notes/repronim.md) · Step 4 and adjacent (3, 6), norms; the loop as a whole at Engelbart's C level.
 **Take:** A strong B-level substrate (standards, provenance, containers, queryable metadata) with thin C-level machinery; its public self-description does not cover steps 2 and 5, the 5 → 2 edge, or load.
 **Why here:** The target community. Agent reading (inference): a hub-led standards and training center, not yet a Networked Improvement Community (no shared outcome measures, no tests-of-change cycles, no measure of its own effect on the field).
-**Caveats:** site only; TRD plans are not on the site; the site's "Phase 2, 2021-2026" conflicts with RePORTER's project end of 2031-06-30.
+**Caveats:** site only; TRD plans are not on the site; the site still describes Phase 2 (2021-2026), while Phase 3 (the P41's last phase, to 2031-06-30 per RePORTER) is under way.
 
 ### Hardt, *The Emerging Science of Machine Learning Benchmarks* (Princeton UP, 2026) ☐
 [notes](notes/hardt.md) · https://mlbenchmarks.org · Steps 5, 2, 5 → 2, 6, trust, norms.
@@ -141,9 +141,9 @@ Each is only as strong as the agent outputs under it.
    Mycelium attributes claims to sources but weights them equally; WikiSkill's credit assignment works only because each change is single and isolated; Brain Researcher does not propagate across claims.
 6. **Substrate for "use as load" exists inside projects, not across the body.**
    Mycelium's lineage graph and Neurosynth Compose's study aggregation could record dependency; neither counts reliance across papers.
-7. **"Auditability is constitutive" still has no support.**
+7. **"Auditability is constitutive" has no support in the literature; it is adopted as a working assumption (a definition of "rigorous"), not a finding.**
    Hardt's rankings rest on a shared protocol, not on inspecting artifacts; Longino requires criticizability plus uptake; Brain Researcher treats audit as a design goal.
-   It remains the project's own position.
+   It remains the project's own position, stipulated rather than derived.
 8. **"Replication" needs the vocabulary split.**
    Hardt's three bars, OSC's independent re-runs, and Meisler's "replicable" (cross-vendor consistency within one cohort) are three different claims under one word.
 9. **Candidate cases for `docs/cases.md`:**
