@@ -22,6 +22,7 @@ Web copies can change (the Hardt book is a moving preprint), in which case the c
 | `arxiv-2106.11184.pdf` (Park et al., preprint of the 2023 Nature paper) | https://arxiv.org/pdf/2106.11184 | CC BY 4.0 |
 | `nber-w23782.pdf` (Bloom et al., working paper of the 2020 AER paper) | https://www.nber.org/system/files/working_papers/w23782/w23782.pdf | NBER working paper; © the authors |
 | `nielsen-qiu-2022-vision-of-metascience.html` | https://scienceplusplus.org/metascience/index.html | © the authors |
+| `repronim.org/*.html` (21 pages: about, why, approach, principles and sub-pages, EAB, publications, collaborators, fellowship, participate, resources, tools, ReproLake, training, pond-lake tutorial, news, home) | https://repronim.org/ (each file's URL registered) | © ReproNim; license not stated |
 | `narayanan-kapoor-2025-ai-as-normal-technology.html` | https://knightcolumbia.org/content/ai-as-normal-technology | © the authors / Knight Institute |
 
 Sources summarized from the web without a stored original (paywalled, web-only, or tools): Bryk et al. NIC work (Carnegie site blocks scripted fetches), Fleming 2026, Meisler et al. 2026 (CC BY-NC-ND 4.0, could be added), ARC-AGI-3 technical report, Brain-Score, Terminal-Bench, Jev, K-Dense, the tooling batch, and the eleven classics.

@@ -14,8 +14,8 @@ Stance and working rules: `CLAUDE.md`.
 - **Model** (`docs/`): the 6-step loop with its missing edges (`map.md`), STAMPED's role (`stamped.md`), cases incl. the lee3j Goodhart exhibit (`cases.md`), AI-in-the-loop table, all TODO (`ai-in-the-loop.md`).
   All of it is our model, not observation; nothing has been traced through a real case yet.
   Session summaries: `docs/session-2026-10-16.md` (the original chat) and `docs/session-2026-10-16-lit-review.md` (this bibliography work).
-- **Bibliography** (`sources/`): 31 notes (one covers a batch of six tools), each with a context-free agent summary and a repo-aware agent relevance report in `sources/notes/`.
-  `ANNOTATED_BIB.md` (high tier, 16 entries, plus 13 cross-cutting points) and `STRETCH_ANNOTATED_BIB.md` (the rest).
+- **Bibliography** (`sources/`): 32 notes (one covers a batch of six tools; one is repronim.org itself), each with a context-free agent summary and a repo-aware agent relevance report in `sources/notes/`.
+  `ANNOTATED_BIB.md` (high tier, 17 entries, plus 13 cross-cutting points) and `STRETCH_ANNOTATED_BIB.md` (the rest).
   **Unreviewed.** No human has read any source; summaries of the classics rest mostly on model background knowledge; read the confidence section of each note before relying on it.
   How it was made, and how to extend it: `sources/method/README.md`.
 - **Originals**: `sources/originals/` in git-annex with web URLs registered; licenses in `MANIFEST.md`.

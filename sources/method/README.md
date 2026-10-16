@@ -12,4 +12,4 @@ How the entries in `../notes/` were produced, so the pipeline can be rerun or ex
 5. **Assemble**: note file = header + summary + relevance, in `../notes/<key>.md`; add an entry to `../ANNOTATED_BIB.md` or `../STRETCH_ANNOTATED_BIB.md`; update the cross-cutting synthesis.
 
 Tier calls for the eleven classic sources were made by the orchestrator from the relevance reports; all others are the relevance agent's, except where an entry says otherwise.
-The 2026-10-16 runs used earlier, narrower versions of the relevance prompt (no thesis section) for the first 23 sources.
+Notes from 2026-10-16 were produced with earlier versions of the relevance prompt: the first 23 sources had no thesis section; the eight prior-naming/RSI sources were assessed against "RSI is unnecessary", before RCI was reframed as a design frame. The repronim.org note uses the current framing.

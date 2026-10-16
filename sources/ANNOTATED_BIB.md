@@ -18,6 +18,12 @@ The cross-cutting section is orchestrator synthesis over agent outputs: inferenc
 Each entry: loop step, one-line take, and the point that earned it a place here.
 Read? stays ☐ until a human has read it.
 
+### ReproNim, repronim.org (NIH NIBIB P41EB019936; site fetched 2026-10-16) ☐
+[notes](notes/repronim.md) · Step 4 and adjacent (3, 6), norms; the loop as a whole at Engelbart's C level.
+**Take:** A strong B-level substrate (standards, provenance, containers, queryable metadata) with thin C-level machinery; its public self-description does not cover steps 2 and 5, the 5 → 2 edge, or load.
+**Why here:** The target community. Agent reading (inference): a hub-led standards and training center, not yet a Networked Improvement Community (no shared outcome measures, no tests-of-change cycles, no measure of its own effect on the field).
+**Caveats:** site only; TRD plans are not on the site; the site's "Phase 2, 2021-2026" conflicts with RePORTER's project end of 2031-06-30.
+
 ### Hardt, *The Emerging Science of Machine Learning Benchmarks* (Princeton UP, 2026) ☐
 [notes](notes/hardt.md) · https://mlbenchmarks.org · Steps 5, 2, 5 → 2, 6, trust, norms.
 **Take:** Closest working model of a community verification loop; shows rankings survive Goodhart where absolute numbers fail, but only with shared data and cheap re-runs.
@@ -112,7 +118,7 @@ Relevance for these was assessed against the RCI thesis explicitly (does the sou
 
 ## Cross-cutting (orchestrator synthesis, unverified)
 
-Patterns across all 31 relevance reports (11 classics, 12 from the ReproNim kickoff, 8 on prior naming and RSI).
+Patterns across the first 31 relevance reports (11 classics, 12 from the ReproNim kickoff, 8 on prior naming and RSI); the repronim.org entry is not yet folded in.
 Each is only as strong as the agent outputs under it.
 
 1. **Still no source covers verification allocation across the existing body.**
