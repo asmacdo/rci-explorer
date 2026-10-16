@@ -8,8 +8,10 @@ we can see where AI (and STAMPED) can make it more efficient, more rigorous, fas
 - **Descriptive first.** Map what is actually happening before proposing what should.
 - **Rigor is a community property.** Unauditable work may be careful; it is not rigorous
   from the community's perspective. Auditability is constitutive, not instrumental.
-- **"Recursive Community Improvement"** — easier than RSI, includes humans, and already
-  exists. The problem is to optimize it, not invent it.
+- **"Recursive Community Improvement"** — the mental model of what *we can* build: a loop of
+  humans, institutions and tools improving their own methods. RSI is out of scope, not a
+  rival to argue against. Prior art (Engelbart, Drexler, Nielsen & Qiu, Bryk) is to build on,
+  not to out-claim.
 - **The body of science is semi-trusted.** Building on it is either risky (no
   verification) or expensive (verification). Once mapped, this is a resource allocation
   problem — and allocation is distributed, not decided centrally.

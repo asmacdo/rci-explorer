@@ -5,7 +5,8 @@ Self-contained: read this, then `CLAUDE.md`, then `sources/ANNOTATED_BIB.md`, th
 ## What this is
 
 A map of science as a recursive community improvement (RCI) loop, to see where AI and STAMPED can make it more rigorous and faster.
-Thesis: science already is a working self-improving loop of humans, institutions and tools; single-AI recursive self-improvement (RSI) is unnecessary for better science; improve the existing loop instead.
+Practical goal: find contributions to the ReproNim Phase 3 TRDs (benchmark suite, ReproScore, skill validation and trust, claim re-executability).
+RCI is the mental model of what we can build; RSI is out of scope, not a rival.
 Stance and working rules: `CLAUDE.md`.
 
 ## State
@@ -34,16 +35,17 @@ The cross-cutting section of `sources/ANNOTATED_BIB.md` is the thing to read; th
 
 These are positioning calls about the thesis, deliberately not made by an agent (also in `TODO.md`):
 
-1. How to position RCI against Engelbart / Drexler / Nielsen & Qiu / Bryk (cross-cutting 10).
-2. Whether "already works" survives, or splits into "the research loop runs; the loop that changes the loop is slow" (11).
-3. Humans as constituents of the loop or as overseers of it (13).
-4. Mycelium's tier (agent said STRETCH; placed in the high tier pending your call).
+1. Humans as constituents of the loop or as overseers of it (13).
+2. Mycelium's tier (agent said STRETCH; placed in the high tier pending your call).
+
+Decided: RCI is a design frame, not a claim to defend against RSI; prior art is built on, not out-claimed. This retires the positioning and "already works" questions (cross-cutting 10-12 remain useful as context).
 
 ## Next steps
 
-1. Review the bibliography; read the high-tier sources, starting with Hardt and Engelbart.
-2. Trace real cases through the loop (candidates in cross-cutting 9: OHBM OSSIG challenge, Brain Researcher's sign-blind error, Darwin Gödel Machine App. H, Meisler).
-3. Evidence for AI already in the loop (`docs/ai-in-the-loop.md`).
+1. Short sourced memo per ReproNim TRD, TRD3 first (benchmark suite, skill trust); read the specific sources cited (Hardt Ch 5, 7, 12, 14 especially) before offering anything.
+2. Review the bibliography; read the high-tier sources, starting with Hardt and Engelbart.
+3. Trace real cases through the loop (candidates in cross-cutting 9: OHBM OSSIG challenge, Brain Researcher's sign-blind error, Darwin Gödel Machine App. H, Meisler).
+4. Evidence for AI already in the loop (`docs/ai-in-the-loop.md`).
 
 ## Repo mechanics
 
