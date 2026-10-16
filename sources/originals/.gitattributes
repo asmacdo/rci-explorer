@@ -1,0 +1,4 @@
+# all fetched originals go to git-annex; only the manifest stays in git
+* annex.largefiles=anything
+MANIFEST.md annex.largefiles=nothing
+.gitattributes annex.largefiles=nothing
