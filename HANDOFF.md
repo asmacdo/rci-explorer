@@ -50,7 +50,7 @@ Decided: RCI is a design frame, not a claim to defend against RSI; prior art is 
 ## Repo mechanics
 
 - Remotes: `origin` (GitHub, public; no annex content) and `hub-con` (hub.centerforopenneuroscience.org, private; holds annex content).
-  After pushing to hub-con, the server records receipts on its `git-annex` branch, so the next push may need `git annex merge` first.
+  After pushing to hub-con, the server records receipts on its `git-annex` branch, so if a push of `git-annex` is rejected, run `git fetch hub-con && git annex merge` and push again.
 - Large and binary files go in git-annex (`.gitattributes`); `git annex get <file>` fetches from hub-con or the registered URL.
 - `gitignored/` is local only: ReproNim meeting notes (internal, never commit) and NotebookLM bundles (`gitignored/notebooklm/episode-NN-*/`, each with a `PROMPT.md`).
 - Git is the history; files describe current state only.

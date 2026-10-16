@@ -17,4 +17,4 @@ At the end of a session, or when asked to prepare a handoff:
 2. **Rewrite `HANDOFF.md`** to the current state: what exists, how trustworthy it is, decisions waiting on the project lead, next steps, repo mechanics.
    Current state only; no history (git and the session summaries hold that).
 3. **Update `TODO.md`** and the layout in `CLAUDE.md` if files or directories changed.
-4. **Commit and push** to `origin` and `hub-con` (`git annex merge` first if hub-con rejects the `git-annex` branch; `git annex copy --to hub-con` for new annexed content).
+4. **Commit and push** to `origin` and `hub-con` (`git annex copy --to hub-con` for new annexed content; if hub-con rejects the `git-annex` branch, `git fetch hub-con && git annex merge` and push again).
