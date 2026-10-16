@@ -37,6 +37,7 @@ we can see where AI (and STAMPED) can make it more efficient, more rigorous, fas
 - `sources/ANNOTATED_BIB.md` — highly relevant sources + cross-cutting synthesis
 - `sources/STRETCH_ANNOTATED_BIB.md` — adjacent, background, tooling sources
 - `sources/notes/<source>.md` — per-source summary (context-free agent) + relevance (repo-context agent)
+- `sources/method/` — agent prompts and helper used to build the bibliography
 - `sources/originals/` — fetched originals (git-annex, URLs registered); `MANIFEST.md` lists URLs and licenses
 - `gitignored/` — local-only material (meeting notes etc.), never committed
 - `docs/cases.md` — real cases traced through the loop, incl. anti-patterns
