@@ -11,7 +11,7 @@ Full outputs: `notes/<source>.md`.
 Tiers for the eleven classic sources are the orchestrator's call from the relevance reports; tiers for the new sources are the relevance agent's, except where marked.
 The cross-cutting section is orchestrator synthesis over agent outputs: inference over inference, not findings.
 
-**Originals** are listed in [originals/MANIFEST.md](originals/MANIFEST.md); only openly licensed ones are committed.
+**Originals** are in git-annex under `originals/`; URLs and licenses in [originals/MANIFEST.md](originals/MANIFEST.md).
 
 ## Entries
 
@@ -56,7 +56,7 @@ Measured verifier weakness: automated review missed a sign-blind scoring error a
 ### Strevens, *The Knowledge Machine* (2020) ☐
 [notes](notes/strevens.md) · Norms, steps 5, 6.
 **Take:** The iron rule restricts public argument to empirical evidence while private motives stay free; a norms account, silent on verification cost and allocation.
-**Why here:** Promoted from the seed list because Hardt builds his whole account on it.
+**Why here:** Hardt builds his whole account on it.
 Two agents flagged Strevens 2003 ("The Role of the Priority Rule in Science") as likely more relevant to allocation; not yet assessed.
 
 ### Choudhury et al., Mycelium / "Networked Intelligence: Active Shared Context Graphs" (arXiv:2607.13220, 2026) ☐

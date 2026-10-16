@@ -1,7 +1,7 @@
 # TODO
 
-- [ ] **Annotated bibliography** — flesh out `docs/prior-art.md`; start with Popper, read
-      Kitcher 1990 early
+- [ ] **Annotated bibliography** — review the agent pass in `sources/`; read the high-tier sources
+- [ ] Prior names for RCI (Engelbart bootstrapping / C-level, Drexler CAIS, Nielsen & Qiu metascience) and RSI sources: decide which get full treatment
 - [ ] Trace real cases through the loop; stretch the map (`docs/cases.md`)
 - [ ] Survey how AI is already entering the loop, with evidence (`docs/ai-in-the-loop.md`)
 - [ ] Annotate each loop step with actor + cost; mark human-bound vs. automatable

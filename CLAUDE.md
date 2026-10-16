@@ -28,6 +28,8 @@ we can see where AI (and STAMPED) can make it more efficient, more rigorous, fas
 - Every claim about "how science works" needs a real case or a citation. Our own model is
   not an observation.
 - Keep `docs/map.md` as-is only. Proposals go in `docs/proposals/`.
+- Git is the history. Files describe the current state only: no "moved to" stubs, changelogs, or notes about how the repo used to be.
+- Large or binary files (PDFs, originals) go in git-annex, never plain git; see `.gitattributes`.
 
 ## Layout
 
@@ -35,7 +37,7 @@ we can see where AI (and STAMPED) can make it more efficient, more rigorous, fas
 - `sources/ANNOTATED_BIB.md` — highly relevant sources + cross-cutting synthesis
 - `sources/STRETCH_ANNOTATED_BIB.md` — adjacent, background, tooling sources
 - `sources/notes/<source>.md` — per-source summary (context-free agent) + relevance (repo-context agent)
-- `sources/originals/` — openly licensed originals; `MANIFEST.md` lists the rest (gitignored)
+- `sources/originals/` — fetched originals (git-annex, URLs registered); `MANIFEST.md` lists URLs and licenses
 - `gitignored/` — local-only material (meeting notes etc.), never committed
 - `docs/cases.md` — real cases traced through the loop, incl. anti-patterns
 - `docs/ai-in-the-loop.md` — where AI is already entering, observed effects

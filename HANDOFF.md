@@ -14,17 +14,17 @@ Self-contained: read this, then `CLAUDE.md`, then `docs/`.
 - The loop and its missing edges: `docs/map.md`.
 - STAMPED's role, spectrum, and the allocation question: `docs/stamped.md`.
 - Cases incl. the lee3j Goodhart exhibit and the spec-balancing questions: `docs/cases.md`.
-- Reading list seed: `docs/prior-art.md`. AI-in-the-loop table (all TODO): `docs/ai-in-the-loop.md`.
+- Bibliography: `sources/ANNOTATED_BIB.md` (with cross-cutting synthesis) and `sources/STRETCH_ANNOTATED_BIB.md`; agent-generated, unreviewed, no source read by a human yet.
+- AI-in-the-loop table (all TODO): `docs/ai-in-the-loop.md`.
 
 ## Immediate next steps (see TODO.md)
 
-1. Annotated bibliography — start with Popper; Kitcher 1990 early.
+1. Review the agent bibliography; read the high-tier sources.
 2. Trace real cases through the loop; stretch the map.
 3. Evidence for AI already in the loop.
 
 ## Repo mechanics
 
-- `main` on GitHub has an initial commit from repo creation; this seed was committed on an
-  unrelated history. Merge with `--allow-unrelated-histories` or rebase onto `origin/main`.
+- Large files are in git-annex; `git annex get <file>` fetches from the registered web URL.
 - The chat session could not push (no Claude GitHub App on the asmacdo org). Install it
   if future cloud sessions should push directly.
