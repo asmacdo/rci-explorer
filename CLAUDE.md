@@ -32,7 +32,11 @@ we can see where AI (and STAMPED) can make it more efficient, more rigorous, fas
 ## Layout
 
 - `docs/map.md` — the loop, as-is, with missing/dashed edges called out
-- `docs/prior-art.md` — annotated bibliography (seed; TODO)
+- `sources/ANNOTATED_BIB.md` — highly relevant sources + cross-cutting synthesis
+- `sources/STRETCH_ANNOTATED_BIB.md` — adjacent, background, tooling sources
+- `sources/notes/<source>.md` — per-source summary (context-free agent) + relevance (repo-context agent)
+- `sources/originals/` — openly licensed originals; `MANIFEST.md` lists the rest (gitignored)
+- `gitignored/` — local-only material (meeting notes etc.), never committed
 - `docs/cases.md` — real cases traced through the loop, incl. anti-patterns
 - `docs/ai-in-the-loop.md` — where AI is already entering, observed effects
 - `docs/stamped.md` — where STAMPED fits, the spectrum, the allocation question
