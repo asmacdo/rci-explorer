@@ -27,7 +27,13 @@ Driven by the project lead; the agent orchestrated Sonnet subagents and consolid
 - The project lead's framing: RSI is unnecessary because science already is a working improvement loop; and "RCI" has probably been named before.
 - Two scouting agents, then full treatment of Engelbart 1962, Bryk et al. NICs, Drexler 2019, Nielsen & Qiu 2022, Darwin Gödel Machine, Bloom/Park (high), Narayanan & Kapoor, Weston & Foerster (stretch).
 - Result: the concept is not new (Engelbart's bootstrapping is closest; the A/B/C levels are later Institute material, not 1962); "already works" is contested; RSI works given a cheap verifier and then attacks it.
-- These are recorded as cross-cutting points 10-13 and as open decisions in `TODO.md`; the thesis in `CLAUDE.md` was deliberately left unchanged.
+- These are recorded as cross-cutting points 10-13.
+
+## Reframing (project lead)
+
+- RCI is a design frame, the mental model of what we can build; RSI is out of scope rather than a rival; prior art is built on, not out-claimed.
+- Practical goal: contributions to the ReproNim Phase 3 TRDs. RCI was arguably ReproNim's goal all along, half-unspoken; the term earns its place if it changes how the TRDs are thought about. Skills and autonomous agents are one part of a larger strategy still to be fleshed out.
+- repronim.org added as a source and read through that lens (agent inference): strong B-level substrate, thin C-level machinery, no public measure of its own effect; steps 2 and 5, the 5 → 2 edge and load are not covered by the site.
 
 ## Other outputs
 
