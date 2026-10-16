@@ -1,0 +1,4 @@
+* annex.backend=SHA256E
+* annex.largefiles=(not(mimetype=text/*))or(largerthan=1mb)
+*.pdf annex.largefiles=anything
+.gitattributes annex.largefiles=nothing
