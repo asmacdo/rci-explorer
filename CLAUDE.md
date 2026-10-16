@@ -28,6 +28,7 @@ we can see where AI (and STAMPED) can make it more efficient, more rigorous, fas
 - Every claim about "how science works" needs a real case or a citation. Our own model is
   not an observation.
 - Keep `docs/map.md` as-is only. Proposals go in `docs/proposals/`.
+- Picking up or handing off a session: follow `how-to-pickup-handoff.md` (also the `handoff` skill).
 - Git is the history. Files describe the current state only: no "moved to" stubs, changelogs, or notes about how the repo used to be.
 - Large or binary files (PDFs, originals) go in git-annex, never plain git; see `.gitattributes`.
 
