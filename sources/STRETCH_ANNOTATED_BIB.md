@@ -35,6 +35,16 @@ Read? stays ☐ until a human has read it.
 **Take:** Ethnography of one lab: claims shed hedges and provenance as they travel, and credit drives work. Describes trust freezing, not how to reverse it.
 **Kept for:** Suggests "trust frozen at step 6" may be gradual and post-publication.
 
+## RSI and AI-progress framings
+
+### Narayanan & Kapoor, "AI as Normal Technology" (Knight First Amendment Institute, 2025) ☐
+[notes](notes/nk.md) · The loop as a whole, norms. Thesis: BOTH, weakly.
+**Take:** Impact is gated by an innovation-diffusion loop of people, firms and institutions "even if progress in AI methods can be arbitrarily sped up"; leaves RSI open and treats institutional slowness as protective, where the repo treats loop friction as something to optimize.
+
+### Weston & Foerster, "AI & Human Co-Improvement for Safer Co-Superintelligence" (arXiv:2512.05356, 2025) ☐
+[notes](notes/wf.md) · Steps 3-5. Thesis: BOTH, weakly.
+**Take:** Position paper for human-AI co-improvement over autonomous RSI, scoped to AI research labs; concedes a self-improving endpoint and has nothing on communities, verification or allocation.
+
 ## Benchmarks and evaluation
 
 ### ARC Prize Foundation, ARC-AGI-3 (technical report, 2026) ☐

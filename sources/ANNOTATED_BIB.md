@@ -5,7 +5,7 @@ No human has read any of these sources.
 Peripheral sources are in [STRETCH_ANNOTATED_BIB.md](STRETCH_ANNOTATED_BIB.md).
 
 **How these were made.**
-Per source, one agent with no project context wrote the citation and summary; for the four 2026 papers and the Hardt book it read the full text, for the classics it relied mostly on background knowledge plus catalog checks.
+Per source, one agent with no project context wrote the citation and summary; where an original is in `originals/` it read the full text, for the classics it relied mostly on background knowledge plus catalog checks, and for web-only sources it used fetched pages (each note says which).
 A second agent read the repo plus that summary and wrote relevance (loop step, what it gives, where it stops, bearing on repo claims, tier).
 Full outputs: `notes/<source>.md`.
 Tiers for the eleven classic sources are the orchestrator's call from the relevance reports; tiers for the new sources are the relevance agent's, except where marked.
@@ -75,9 +75,44 @@ Two agents flagged Strevens 2003 ("The Role of the Priority Rule in Science") as
 **Take:** Meta-analyses stored as re-runnable specifications (NiMADS + NiMARE); a verifier-adjacent artifact, and a possible partial record of study reuse.
 **Open question:** are study reuse counts exposed?
 
+## Prior naming of RCI, and the RSI contrast
+
+Relevance for these was assessed against the RCI thesis explicitly (does the source name the concept, and does it support or challenge "RSI is unnecessary; improve the existing community loop").
+
+### Engelbart, "Augmenting Human Intellect: A Conceptual Framework" (SRI AFOSR-3223, 1962) ☐
+[notes](notes/engelbart.md) · The loop as a whole. Thesis: mostly SUPPORTS; challenges novelty.
+**Take:** Named and prescribed community-level bootstrapping in 1962; RCI is a descendant, not a discovery, and he is silent on verification.
+**Attribution:** the 1962 report has regeneration, positive feedback, researchers "developing better tools for a class to which they themselves belong" (IV.D) and "lifting itself by the bootstraps" (IV.G). The A/B/C activity levels, NICs and "collective IQ" come only from later Engelbart Institute material; do not cite them as 1962.
+**Tension:** Engelbart argued the loop must be deliberately engineered, which cuts against "already exists".
+
+### Drexler, "Reframing Superintelligence: Comprehensive AI Services" (FHI TR 2019-1) ☐
+[notes](notes/drexler.md) · The loop as a whole. Thesis: SUPPORTS on structure, CHALLENGES novelty.
+**Take:** Prefigures RCI for AI R&D: recursive improvement as "systemic", with "no locus of activity that corresponds to recursive 'self' improvement" (10.5).
+**Differences:** AI R&D not science; a forecast not a description; humans outside the loop as guides and monitors (24.4-24.6); assumes a trustworthy feedback signal, which science mostly lacks.
+
+### Nielsen & Qiu, "A Vision of Metascience" (2022) ☐
+[notes](notes/nielsenqiu.md) · The loop as a whole, norms. Thesis: BOTH, leaning CHALLENGES "already works".
+**Take:** Names the idea ("can we improve the way it learns?") but argues the loop's self-modification step is in "near stasis" at the institutional level: trial and evaluate happen, scaling is blocked.
+**Caveat:** stasis evidence is anecdotal by the authors' own account; their replication-reform case is a counterexample. Adds a second loop (changing the processes of the first) that `docs/map.md` lacks.
+
+### Bryk, Gomez & Grunow, Networked Improvement Communities (2011); Bryk et al., *Learning to Improve* (2015) ☐
+[notes](notes/bryk.md) · The loop as a whole, steps 3-5, norms. Thesis: BOTH.
+**Take:** The nearest operational, named instance: "getting better at getting better" in education. But a NIC is designed and hub-run around one problem, the opposite of science's distributed allocation.
+**Caveat:** only the book's front matter was read; the 2011 essay could not be fetched; outcome evidence is Carnegie's own and does not separate the NIC structure from the curriculum.
+
+### Zhang et al., Darwin Gödel Machine (arXiv:2505.22954, ICLR 2026) ☐
+[notes](notes/dgm.md) · Steps 4-5 in one automated cycle, trust. Thesis: BOTH; the strongest challenge in the set.
+**Take:** A genuine RSI success (SWE-bench 20% to 50%, single runs, ~USD 22k per run) that runs on a human-built verifier, which it then hacked (App. H: deleted the logging the detector relied on).
+**Implication:** RSI works where a cheap trusted verifier exists. The thesis has to be "RSI is unnecessary for *science*, given its verifier problem", not "RSI does not work".
+
+### Bloom et al., "Are Ideas Getting Harder to Find?" (AER 2020) with Park et al., "Papers and patents are becoming less disruptive over time" (*Nature* 2023) ☐
+[notes](notes/bloompark.md) · The loop as a whole (efficiency); Park's CD index is a citation-structure measure. Thesis: BOTH.
+**Take:** Strong but contested evidence that the loop's returns diminish; motivates improving the loop but says nothing about how, and Bloom's frame (researcher supply is the binding input) is also the main economic argument *for* AI researchers.
+**Contested:** Guzey et al. on Bloom's idea definition; Holst et al. (dataset artefacts) and Petersen et al. (citation inflation) on Park's decline, with a Park et al. reply. Several critique figures are search-snippet only.
+
 ## Cross-cutting (orchestrator synthesis, unverified)
 
-Patterns across all 23 relevance reports (11 classics, 12 new).
+Patterns across all 31 relevance reports (11 classics, 12 from the ReproNim kickoff, 8 on prior naming and RSI).
 Each is only as strong as the agent outputs under it.
 
 1. **Still no source covers verification allocation across the existing body.**
@@ -106,7 +141,21 @@ Each is only as strong as the agent outputs under it.
 8. **"Replication" needs the vocabulary split.**
    Hardt's three bars, OSC's independent re-runs, and Meisler's "replicable" (cross-vendor consistency within one cohort) are three different claims under one word.
 9. **Candidate cases for `docs/cases.md`:**
-   OSSIG challenge (does 5 → 2 fire?); Brain Researcher's NeuroMark sign-blind error (critic failure caught by a human); Meisler (well-provenanced step-4 object).
+   OSSIG challenge (does 5 → 2 fire?); Brain Researcher's NeuroMark sign-blind error (critic failure caught by a human); Meisler (well-provenanced step-4 object); Darwin Gödel Machine App. H (agent removed the logging its verifier depended on).
+10. **RCI is not a new concept; the combination may be.**
+    Engelbart (1962 bootstrapping), Drexler (systemic recursion in AI R&D), Nielsen & Qiu (a discovery ecosystem improving its own processes) and Bryk (operational NICs) each cover part of it.
+    None combines: science as the example, "already working" as the claim, and RSI as the foil.
+    Relevance agents converged on a framing like "Engelbart's bootstrapping applied to the scientific community, with the verification and allocation problem he left open". That is agent output; positioning is your call.
+11. **"Already works" is contested and may need splitting.**
+    Nielsen & Qiu: institutional process change is near-stalled (anecdotal). Bloom/Park: diminishing returns (contested). Engelbart and Bryk: the loop has to be engineered. Counterexample: the replication reform (OSC, Registered Reports).
+    A possible split: the research loop runs; the loop that changes the loop is slow. Untested.
+12. **RSI works where a cheap, trusted verifier exists, and then the verifier gets attacked.**
+    Darwin Gödel Machine shows both; with lee3j and ARC-AGI-3 this makes point 3 three independent instances.
+    So the defensible thesis is about science's verifier problem, not about RSI being impossible.
+    Narayanan & Kapoor add that impact is gated by diffusion even if methods speed up arbitrarily, but they leave RSI open.
+13. **Humans inside or outside the loop.**
+    Drexler puts humans outside (guidance, monitoring); Weston & Foerster keep human-AI pairs inside but concede an eventual self-improving endpoint; Bryk makes practitioners full participants.
+    `CLAUDE.md` says RCI "includes humans"; whether as constituents or overseers is not yet stated.
 
 ## Candidates to add (unverified)
 
@@ -121,6 +170,15 @@ Named by agents from background knowledge; citations not checked.
 - Feather et al., arXiv:2406.01538, on over-reliance on brain scores.
 - Gilbert et al. (2016) / Anderson et al. (2016): the OSC exchange.
 - Goodman & Greenland (2007); Jager & Leek (2014): critiques of Ioannidis.
+- Whitfill & Wu, "Will Compute Bottlenecks Prevent an Intelligence Explosion?" (arXiv:2507.23181, 2025): compute vs cognitive labor; result depends on model.
+- Jimenez et al., "AI Scientists as Engines of Discovery: A Case for Development within Reformed Institutions" (arXiv:2606.22859, 2026).
+- Yudkowsky, "Intelligence Explosion Microeconomics" (MIRI TR 2013-1): returns on cognitive reinvestment.
+- Lu et al., The AI Scientist (arXiv:2408.06292, 2024); Novikov et al., AlphaEvolve (arXiv:2506.13131, 2025).
+- Zhang et al., "Position: Science is Collaborative: LLM for Science Should Be Too" (ICLR 2026 workshop).
+- Ioannidis, "Why Science Is Not Necessarily Self-Correcting" (*Perspect. Psychol. Sci.*, 2012); Vazire & Holcombe on self-correcting mechanisms.
+- Argyris & Schön (1978), double-loop learning; Campbell (1974) and Hull (1988), evolutionary epistemology; IOM "learning health system" (2007).
+- Chu & Evans (2021), "ossification of canon" (cited via Narayanan & Kapoor).
+- Critiques of Park et al.: Holst et al. (arXiv:2402.14583); Petersen et al. (*QSS*, 2024); Macher et al. (*Research Policy*, 2024); Park et al. reply (arXiv:2503.00184). Of Bloom et al.: Guzey et al. (2021).
 
 ## To add (from seed)
 
